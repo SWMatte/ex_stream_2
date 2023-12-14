@@ -79,12 +79,7 @@
 
         Long n = scoreInfo.stream().count();
         System.out.println(n + " number of students");
-        */
-
-
-        
-
-
+  
         // print the average score for all of the students
 
         double n = scoreInfo.stream()
@@ -95,16 +90,13 @@
 
         System.out.println("Average: " + formattedAverage);
  
- 
-
-
       //  print the number of students who got an A (score greater than or equal to 90)
 
         scoreInfo.stream()
                 .filter(scoreInfo1 -> scoreInfo1.getScore()>=90)
                 .forEach(x-> System.out.println(x));
   
-        /*
+       
             // use the collect() stream operation to create a List<String> that contains the names of students whose score was less than 70; the names should be in the form first name followed by last name
 
             List<String> namesStudents;
@@ -115,7 +107,7 @@
 
 
             namesStudents.forEach(x-> System.out.println(x));
-        */
+  
 
         //  print out the students' names and scores, ordered by last name
 
