@@ -73,7 +73,7 @@
 
 
 
-> my solution are:
+> my solutions are:
 > 
         // print the number of students (without using scoreData.length)
 
