@@ -21,13 +21,13 @@
 
 > package Models;
 
-public class ScoreInfo {
 
-   private String lastName;
-   private String firstName;
-
-   private int score;
-
+    public class ScoreInfo{
+    
+    private String lastName;
+    private String firstName;
+    private int score; 
+   
     public String getFirstName() {
         return firstName;
     }
@@ -68,7 +68,8 @@ public class ScoreInfo {
                 ", firstName='" + firstName + '\'' +
                 ", score=" + score +
                 '}';
+      } 
     }
-}
+
 
 
