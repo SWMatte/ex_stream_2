@@ -114,7 +114,7 @@
         List<String> studentAndScore;
 
         studentAndScore = scoreInfo.stream()
-                .sorted(Comparator.comparing(ScoreInfo::getFirstName))
+                .sorted(Comparator.comparing(ScoreInfo::getLastName))
                 .map(sc -> new String(sc.getFirstName().concat(" ").concat(String.valueOf(sc.getScore())))).collect(Collectors.toList());
         studentAndScore.forEach(x -> System.out.println(x));
 
